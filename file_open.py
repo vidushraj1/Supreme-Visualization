@@ -17,13 +17,13 @@ bol2 = True
 def open_file():
 
     def load_page():
-        fileUploadWindow.destroy(all)
+        fileUploadWindow.destroy()
         from loading_page import loading
         loading()
 
 
     def question_page():
-        fileUploadWindow.destroy(all)
+        fileUploadWindow.destroy()
         from Question import question_p
         question_p()
 

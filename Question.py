@@ -4,13 +4,13 @@ from PIL import ImageTk, Image
 def question_p():
 
     def file_up():
-        superRWindow.destroy(all)
+        superRWindow.destroy()
             
         from file_open import open_file
         open_file()
 
     def final_p():
-        superRWindow.destroy(all)
+        superRWindow.destroy()
             
         from final import SR_Process
         SR_Process()
