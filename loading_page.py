@@ -4,7 +4,6 @@ from PIL import ImageTk, Image
 def loading():
     def start_process():
         loading_window.destroy()
-        
         from file_open import open_file
         open_file()
 

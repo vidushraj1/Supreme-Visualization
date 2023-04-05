@@ -104,7 +104,8 @@ def open_file():
             predict_on_video(filepath, output_dir_with_filename, output_dir_with_detected, 30)
             progress_window.update() # Update the progress window to ensure it is not stuck
             progress_bar.stop() # Stop the progress bar animation once the processing is complete
-            progress_bar.destroy()    
+            progress_bar.destroy()  
+            progress_window.destroy()  
             # Enable closing the progress window
             progress_window.protocol("WM_DELETE_WINDOW", progress_window.destroy)
             fileUploadWindow.protocol("WM_DELETE_WINDOW", progress_window.destroy)

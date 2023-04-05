@@ -4,13 +4,11 @@ from PIL import ImageTk, Image
 def SR_Process():
 
     def Q_p():
-        superRWindow.destroy()
-            
+        superRWindow.destroy()  
         from Question import question_p
         question_p()
 
     def exit():
-    
         superRWindow.destroy()
 
 
