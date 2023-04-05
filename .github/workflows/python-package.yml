@@ -38,5 +38,5 @@ jobs:
     - name: Test with unittest
       run: |
         pip install unittest
-        export PYTHONPATH=src
+        python -m unittest test.py
         unittest
