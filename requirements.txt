@@ -79,7 +79,7 @@ platformdirs==3.1.1
 proglog==0.1.10
 prometheus-client==0.16.0
 prompt-toolkit==3.0.38
-protobuf==4.22.1
+protobuf==4.25.8
 psutil==5.9.4
 pure-eval==0.2.2
 pyasn1==0.4.8
